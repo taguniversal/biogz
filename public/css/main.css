@@ -1,0 +1,20 @@
+:root { --bg:#ffffff; --ink:#111; --muted:#666; --accent:#0a7; }
+* { box-sizing: border-box; }
+body { margin:0; font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; color:var(--ink); background:var(--bg); }
+.container { max-width: 960px; margin: 0 auto; padding: 1.25rem; }
+.site-header, .site-footer { border-bottom:1px solid #eee; }
+.site-footer { border-top:1px solid #eee; border-bottom:0; }
+.brand { font-weight:700; margin-right:1rem; text-decoration:none; color:var(--ink); }
+nav a { margin-right:1rem; color:var(--muted); text-decoration:none; }
+.lede { color:var(--muted); }
+.meta { color:var(--muted); margin-bottom:1rem; }
+.doc h1 { margin-bottom:.25rem; }
+.card-list { list-style:none; padding:0; display:grid; gap:1rem; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); }
+.card { border:1px solid #eee; border-radius:12px; padding:1rem; }
+.cta { margin:1.25rem 0; padding:1rem; border:1px solid #eee; border-radius:12px; background:#f8fffb; }
+.btn { display:inline-block; padding:.6rem 1rem; background:var(--accent); color:#fff; border-radius:10px; text-decoration:none; font-weight:700; }
+.safety { padding:1rem; border-left:4px solid #f90; background:#fffaf2; margin:1rem 0; }
+figure { margin: 1.25rem auto; text-align: center; }
+figure img { max-width: 600px; width: 100%; height: auto; }
+figure figcaption { color: #666; font-size: 0.9rem; margin-top: 0.5rem; }
+

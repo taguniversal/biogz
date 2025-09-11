@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="brand" href="{{ "/" | relURL }}">{{ site.Params.brandName }}</a>
+        <nav>
+          <a href="{{ "/verticals/" | relURL }}">Verticals</a>
+          <a href="https://biogroundz.com">Main Site</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      {{ block "main" . }}{{ end }}
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <p>© {{ now.Year }} {{ site.Params.brandName }} · Educational content only.</p>
+      </div>
+    </footer>
+    {{ partial "analytics.html" . }}
+  </body>
+</html>

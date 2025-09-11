@@ -1,0 +1,14 @@
+{{ define "main" }}
+<article class="doc">
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.description }}<p class="lede">{{ . }}</p>{{ end }}
+  <div class="meta">
+    {{ with .Params.tam_m_usd }}<span>TAM: {{ . }} M USD</span>{{ end }}
+    {{ with .Params.pilot_status }}<span> · Status: {{ . }}</span>{{ end }}
+    {{ with .Params.regulatory }}<span> · Regulatory: {{ . }}</span>{{ end }}
+  </div>
+  <div class="content">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}

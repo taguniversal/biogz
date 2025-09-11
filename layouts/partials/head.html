@@ -1,0 +1,10 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Params.brandName }}{{ end }}</title>
+{{ with .Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+
+{{/* Canonical handling: prefer page param, else current permalink */}}
+<link rel="canonical" href="{{ cond (isset .Params "canonical") .Params.canonical .Permalink }}">
+
+
+<link rel="stylesheet" href="{{ "/css/main.css" | relURL }}">
