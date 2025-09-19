@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Stormwater on My New Hugo Site</title>
-    <link>http://localhost:1313/tags/stormwater/</link>
-    <description>Recent content in Stormwater on My New Hugo Site</description>
+    <title>Stormwater on Biogroundz</title>
+    <link>https://biogroundz.com/tags/stormwater/</link>
+    <description>Recent content in Stormwater on Biogroundz</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/tags/stormwater/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://biogroundz.com/tags/stormwater/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Stormwater</title>
-      <link>http://localhost:1313/verticals/stormwater/</link>
+      <title>Stormwater Filtration with Biochar</title>
+      <link>https://biogroundz.com/verticals/stormwater/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/verticals/stormwater/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;What this vertical does, who it’s for, outcomes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-it-works&#34;&gt;How It Works&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Step one&amp;hellip;&lt;/li&gt;&#xA;&lt;li&gt;Step two&amp;hellip;&lt;/li&gt;&#xA;&lt;li&gt;Step three&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;bill-of-materials&#34;&gt;Bill of Materials&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Component — spec — source&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;build-steps&#34;&gt;Build Steps&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Detailed steps, photos, pitfalls&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;performance--qa&#34;&gt;Performance &amp;amp; QA&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Benchmarks, charts, pass/fail criteria&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;safety--compliance&#34;&gt;Safety &amp;amp; Compliance&lt;/h2&gt;&#xA;&lt;aside class=&#34;safety&#34;&gt;&#xA;  &lt;strong&gt;Safety &amp; Legal Notice:&lt;/strong&gt;&#xA;  This material is provided for educational purposes only. Follow local regulations for wastewater handling,&#xA;  permits, and disposal. Use appropriate PPE. Biogas and high-pH effluents can be hazardous.&#xA;&lt;/aside&gt;&#xA;&#xA;&lt;h2 id=&#34;roi&#34;&gt;ROI&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;DIY vs Kit cost, time, payback&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;cta&#34;&gt;&#xA;  &lt;a class=&#34;btn&#34; href=&#34;https://biogroundz.com/buy?utm_source=index_honeypot&amp;amp;utm_medium=site&amp;amp;utm_campaign=verticals&#34;&gt;Skip the build — Get the Kit&lt;/a&gt;&#xA;  &lt;p class=&#34;sub&#34;&gt;Skip the build. Get it done right.&lt;/p&gt;</description>
+      <guid>https://biogroundz.com/verticals/stormwater/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Stormwater runoff often carries oils, heavy metals, sediments, and excess nutrients into rivers and lakes.&lt;br&gt;&#xA;Biochar filtration media offers a low-cost, sustainable way to polish stormwater before it enters natural waterways.&lt;br&gt;&#xA;This DIY pathway shows how a simple biochar filter can be assembled for downspouts, retention ponds, or small outfalls.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;how-it-works&#34;&gt;How It Works&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Collect runoff&lt;/strong&gt; in a settling basin or sump before it discharges.&lt;br&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://biogroundz.com/verticals/stormwater/stormwater-collection.png&#34;&#xA;       alt=&#34;Stormwater collection basin&#34; width=&#34;600px&#34;&gt;&#xA;   &lt;/figure&gt;&#xA;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Filter through a biochar media bed&lt;/strong&gt; (often mixed with sand or compost).&lt;br&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://biogroundz.com/verticals/stormwater/biochar-filter.png&#34;&#xA;       alt=&#34;Biochar filter cross section&#34; width=&#34;600px&#34;&gt;&#xA;   &lt;/figure&gt;&#xA;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -16,5 +16,12 @@ canonifyURLs = false
 
 [markup]
   defaultMarkdownHandler = "goldmark"
-  [markup.goldmark.renderer]
-    unsafe = true
+
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2

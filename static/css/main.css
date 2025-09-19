@@ -18,3 +18,24 @@ figure { margin: 1.25rem auto; text-align: center; }
 figure img { max-width: 600px; width: 100%; height: auto; }
 figure figcaption { color: #666; font-size: 0.9rem; margin-top: 0.5rem; }
 
+.cta-link {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background: var(--accent);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.cta-link:hover {
+  background: #097;
+  transform: translateY(-1px);
+}
+
+.cta-link:active {
+  background: #085;
+  transform: translateY(0);
+}

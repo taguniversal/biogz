@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Animal-Upcycling on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/animal-upcycling/</link>
+    <description>Recent content in Animal-Upcycling on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/animal-upcycling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Animal Upcycling</title>
+      <link>http://localhost:1313/verticals/animal-upcycling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/verticals/animal-upcycling/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;What this vertical does, who it’s for, outcomes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-it-works&#34;&gt;How It Works&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Step one&amp;hellip;&lt;/li&gt;&#xA;&lt;li&gt;Step two&amp;hellip;&lt;/li&gt;&#xA;&lt;li&gt;Step three&amp;hellip;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;bill-of-materials&#34;&gt;Bill of Materials&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Component — spec — source&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;build-steps&#34;&gt;Build Steps&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Detailed steps, photos, pitfalls&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;performance--qa&#34;&gt;Performance &amp;amp; QA&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Benchmarks, charts, pass/fail criteria&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;safety--compliance&#34;&gt;Safety &amp;amp; Compliance&lt;/h2&gt;&#xA;&lt;aside class=&#34;safety&#34;&gt;&#xA;  &lt;strong&gt;Safety &amp; Legal Notice:&lt;/strong&gt;&#xA;  This material is provided for educational purposes only. Follow local regulations for wastewater handling,&#xA;  permits, and disposal. Use appropriate PPE. Biogas and high-pH effluents can be hazardous.&#xA;&lt;/aside&gt;&#xA;&#xA;&lt;h2 id=&#34;roi&#34;&gt;ROI&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;DIY vs Kit cost, time, payback&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;cta&#34;&gt;&#xA;  &lt;a &#xA;    class=&#34;cta-link&#34; &#xA;    href=&#34;https://biogroundz.com/buy?utm_source=index_honeypot&amp;amp;utm_medium=site&amp;amp;utm_campaign=verticals&#34; &#xA;    onclick=&#34;&amp;#34;plausible(&amp;#39;CTA_Click&amp;#39;, {props: {vertical: &amp;#39;index&amp;#39;}})&amp;#34;&#34;&#xA;  &gt;&#xA;    Skip the build — Get the Kit&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;{{ partial &amp;ldquo;forms/animal-mortality-upcycling-leads.html&amp;rdquo; . }}&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

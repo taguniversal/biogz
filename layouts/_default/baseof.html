@@ -2,13 +2,15 @@
 <html lang="en">
   <head>
     {{ partial "head.html" . }}
+    <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+
   </head>
   <body>
     <header class="site-header">
       <div class="container">
         <a class="brand" href="{{ "/" | relURL }}">{{ site.Params.brandName }}</a>
         <nav>
-          <a href="{{ "/verticals/" | relURL }}">Verticals</a>
+          <a href="{{ "/biogz/verticals/" | relURL }}">Verticals</a>
           <a href="https://biogroundz.com">Main Site</a>
         </nav>
       </div>

@@ -51,8 +51,9 @@ This DIY pathway shows how a simple biochar filter can be assembled for downspou
 5. Cover with geotextile and secure lid.  
 6. Connect inlet pipe from catch basin and outlet pipe to discharge point.  
 
-{{< figure src="build-diagram.png" alt="DIY filter build diagram" caption="Prompt: 'Exploded diagram of a DIY stormwater filter barrel with labeled layers: gravel, sand, biochar, and outlet pipe.'" width="600px" >}}
+{{< figure src="build-diagram.png" alt="DIY filter build diagram"  width="600px" >}}
 
+<!-- Prompt: 'Exploded diagram of a DIY stormwater filter barrel with labeled layers: gravel, sand, biochar, and outlet pipe. -->
 ---
 
 ## Performance & QA
@@ -61,8 +62,8 @@ This DIY pathway shows how a simple biochar filter can be assembled for downspou
 - **Flow rate:** Check for clogging; backflush or replace media annually.  
 - **QA tests:** Collect influent/effluent samples and send for lab analysis.  
 
-{{< figure src="performance-chart.png" alt="Performance chart" caption="Prompt: 'Simple bar chart showing reduction of zinc, copper, and phosphorus in stormwater after biochar filtration, professional report style.'" width="600px" >}}
-
+{{< figure src="performance-chart.png" alt="Performance chart" width="600px" >}}
+<!-- Prompt: 'Simple bar chart showing reduction of zinc, copper, and phosphorus in stormwater after biochar filtration, professional report style.-->
 ---
 
 ## Safety & Compliance

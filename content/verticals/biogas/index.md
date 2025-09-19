@@ -27,22 +27,31 @@ By integrating **biochar** into the system, we can:
 
    {{< figure src="anaerobic-digester.png" alt="Anaerobic digester diagram" width="400px" >}}
 
+<!-- Prompt: "Diagram of food waste and manure being funneled into a sealed anaerobic digestion tank, cartoon but technical style." -->
+
 2. **Capture** the gas produced (mostly methane and CO₂).  
 
      {{< figure src="gas-capture.png" alt="Gas capturer diagram" width="400px" >}}
 
+<!-- Prompt: "Cutaway illustration of a biogas dome with gas bubbles rising to a collection pipe, labeled arrows for methane and CO₂ --> 
+
 3. **Filter** the gas with biochar to remove contaminants like hydrogen sulfide.  
  
      {{< figure src="biochar-filter.png" alt="Biochar filter diagram" width="400px" >}}
+<!-- Diagram of a vertical biochar filter column with arrows showing biogas entering at bottom, cleaner gas exiting top, labeled H₂S removed -->
 
 4. **Use** the biogas in a combined heat and power (CHP) engine, boiler, or inject into the gas grid.  
 {{< figure src="biogas-use.png" alt="Biogas use diagram" width="400px" >}}
 
+<!-- Prompt: "Infographic showing a generator running on biogas, powering a farm with electricity and heat icons."*
+ -->
 
 5. **Apply** treated digestate to soil as a stabilized organic fertilizer.  
 
 {{< figure src="pellets.png" alt="Pellets applied to crops" width="400px" >}}
 
+<!-- Prompt: "Photo-realistic render of dark soil being enriched with nutrient-rich digestate pellets, plants growing stronger."*
+ -->
 ---
 
 ## Bill of Materials (DIY Starter)
