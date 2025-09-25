@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Your custom styles can follow */
+/* your custom vars */
 :root {
   --bg:#ffffff;
   --ink:#111;

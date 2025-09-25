@@ -12,7 +12,8 @@
 
 <link rel="stylesheet" href="/css/main.css">
 
-    <link rel="stylesheet" href="/css/main.css">
+    
+    <link rel="stylesheet" href="http://localhost:1313/css/main.css">
 
   </head>
   <body>
@@ -77,14 +78,18 @@
   </a>
 </div>
 
-<section>
-  <h2>🐄 Animal Mortality Upcycling Leads</h2>
-  <p>Custom rendering logic goes here...</p>
+<section class="mt-8">
+  <div class="card bg-base-100 shadow-md border border-base-200">
+    <div class="card-body">
+      <h2 class="card-title">🐄 Animal Mortality Upcycling Leads</h2>
 
-  <form>
-    <label for="dropdown_mkvtf2rz">Category</label>
-<select name="dropdown_mkvtf2rz" id="dropdown_mkvtf2rz multiple">
-  <option value="Farm">Farm</option>
+      <form id="lead-form" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="form-control w-full">
+  <label for="dropdown_mkvtf2rz" class="label">
+    <span class="label-text font-medium">Category</span>
+  </label>
+  <select name="dropdown_mkvtf2rz" id="dropdown_mkvtf2rz" class="select select-bordered w-full">
+    <option value="Farm">Farm</option>
 <option value="University">University</option>
 <option value="Rendering Plant">Rendering Plant</option>
 <option value="Government">Government</option>
@@ -99,54 +104,78 @@
 <option value="Heritage hog breeder">Heritage hog breeder</option>
 <option value="Show / Swine operation">Show / Swine operation</option>
 <option value="Animal mortality from feral hogs / removal facilities">Animal mortality from feral hogs / removal facilities</option>
-</select>
+  </select>
+</div>
 
-<label for="dropdown_mkvvz9wt">Interest Tags</label>
-<select name="dropdown_mkvvz9wt" id="dropdown_mkvvz9wt multiple">
-  <option value="Manure Disposal">Manure Disposal</option>
+<div class="form-control w-full">
+  <label for="dropdown_mkvvz9wt" class="label">
+    <span class="label-text font-medium">Interest Tags</span>
+  </label>
+  <select name="dropdown_mkvvz9wt" id="dropdown_mkvvz9wt" class="select select-bordered w-full">
+    <option value="Manure Disposal">Manure Disposal</option>
 <option value="Animal Mortality">Animal Mortality</option>
 <option value="Sustainability">Sustainability</option>
 <option value="Grant-Eligible">Grant-Eligible</option>
 <option value="Urgent Need">Urgent Need</option>
-</select>
+  </select>
+</div>
 
-<label for="dropdown_mkvtgysg">Current Disposal Method</label>
-<select name="dropdown_mkvtgysg" id="dropdown_mkvtgysg multiple">
-  <option value="Burial">Burial</option>
+<div class="form-control w-full">
+  <label for="dropdown_mkvtgysg" class="label">
+    <span class="label-text font-medium">Current Disposal Method</span>
+  </label>
+  <select name="dropdown_mkvtgysg" id="dropdown_mkvtgysg" class="select select-bordered w-full">
+    <option value="Burial">Burial</option>
 <option value="Composting">Composting</option>
 <option value="Rendering">Rendering</option>
 <option value="Incineration">Incineration</option>
 <option value="Unknown">Unknown</option>
-</select>
+  </select>
+</div>
 
-<label for="dropdown_mkvvjebh">Local Contractor Needed?</label>
-<select name="dropdown_mkvvjebh" id="dropdown_mkvvjebh multiple">
-  <option value="Yes">Yes</option>
+<div class="form-control w-full">
+  <label for="dropdown_mkvvjebh" class="label">
+    <span class="label-text font-medium">Local Contractor Needed?</span>
+  </label>
+  <select name="dropdown_mkvvjebh" id="dropdown_mkvvjebh" class="select select-bordered w-full">
+    <option value="Yes">Yes</option>
 <option value="No">No</option>
 <option value="Unknown">Unknown</option>
-</select>
+  </select>
+</div>
 
-<label for="dropdown_mkvvz453">Existing Grant Writer?</label>
-<select name="dropdown_mkvvz453" id="dropdown_mkvvz453 multiple">
-  <option value="Yes">Yes</option>
+<div class="form-control w-full">
+  <label for="dropdown_mkvvz453" class="label">
+    <span class="label-text font-medium">Existing Grant Writer?</span>
+  </label>
+  <select name="dropdown_mkvvz453" id="dropdown_mkvvz453" class="select select-bordered w-full">
+    <option value="Yes">Yes</option>
 <option value="No">No</option>
 <option value="Unknown">Unknown</option>
-</select>
+  </select>
+</div>
 
-<label for="dropdown_mkvt2mb7">Species</label>
-<select name="dropdown_mkvt2mb7" id="dropdown_mkvt2mb7 multiple">
-  <option value="Poultry">Poultry</option>
+<div class="form-control w-full">
+  <label for="dropdown_mkvt2mb7" class="label">
+    <span class="label-text font-medium">Species</span>
+  </label>
+  <select name="dropdown_mkvt2mb7" id="dropdown_mkvt2mb7" class="select select-bordered w-full">
+    <option value="Poultry">Poultry</option>
 <option value="Swine">Swine</option>
 <option value="Cattle">Cattle</option>
 <option value="Goat">Goat</option>
 <option value="Sheep">Sheep</option>
 <option value="Mixed">Mixed</option>
 <option value="Other">Other</option>
-</select>
+  </select>
+</div>
 
-<label for="dropdown_mkvt24wa">Region / State</label>
-<select name="dropdown_mkvt24wa" id="dropdown_mkvt24wa multiple">
-  <option value="AL">AL</option>
+<div class="form-control w-full">
+  <label for="dropdown_mkvt24wa" class="label">
+    <span class="label-text font-medium">Region / State</span>
+  </label>
+  <select name="dropdown_mkvt24wa" id="dropdown_mkvt24wa" class="select select-bordered w-full">
+    <option value="AL">AL</option>
 <option value="AZ">AZ</option>
 <option value="AR">AR</option>
 <option value="CA">CA</option>
@@ -197,11 +226,15 @@
 <option value="WI">WI</option>
 <option value="WY">WY</option>
 <option value="TX - Panhandle">TX - Panhandle</option>
-</select>
+  </select>
+</div>
 
-<label for="status">Status</label>
-<select name="status" id="status multiple">
-  <option value="New Lead">New Lead</option>
+<div class="form-control w-full">
+  <label for="status" class="label">
+    <span class="label-text font-medium">Status</span>
+  </label>
+  <select name="status" id="status" class="select select-bordered w-full">
+    <option value="New Lead">New Lead</option>
 <option value="Intro Call Complete">Intro Call Complete</option>
 <option value="Contacted">Contacted</option>
 <option value="Site Visit">Site Visit</option>
@@ -210,17 +243,25 @@
 <option value="Signed">Signed</option>
 <option value="Not Interested">Not Interested</option>
 <option value="Working on it">Working on it</option>
-</select>
+  </select>
+</div>
 
-<label for="dropdown_mkvvz141">Follow-up Needed</label>
-<select name="dropdown_mkvvz141" id="dropdown_mkvvz141 multiple">
-  <option value="Yes">Yes</option>
+<div class="form-control w-full">
+  <label for="dropdown_mkvvz141" class="label">
+    <span class="label-text font-medium">Follow-up Needed</span>
+  </label>
+  <select name="dropdown_mkvvz141" id="dropdown_mkvvz141" class="select select-bordered w-full">
+    <option value="Yes">Yes</option>
 <option value="No">No</option>
-</select>
+  </select>
+</div>
 
-<label for="dropdown_mkvtz3k2">Biogroundz Offer</label>
-<select name="dropdown_mkvtz3k2" id="dropdown_mkvtz3k2 multiple">
-  <option value="Disposal Service">Disposal Service</option>
+<div class="form-control w-full">
+  <label for="dropdown_mkvtz3k2" class="label">
+    <span class="label-text font-medium">Biogroundz Offer</span>
+  </label>
+  <select name="dropdown_mkvtz3k2" id="dropdown_mkvtz3k2" class="select select-bordered w-full">
+    <option value="Disposal Service">Disposal Service</option>
 <option value="On-site Conversion">On-site Conversion</option>
 <option value="Biochar Filter">Biochar Filter</option>
 <option value="Custom Blend">Custom Blend</option>
@@ -228,19 +269,30 @@
 <option value="Onsite Neutralization">Onsite Neutralization</option>
 <option value="Pyrolysis">Pyrolysis</option>
 <option value="create NPK-rich soil input">create NPK-rich soil input</option>
-</select>
+  </select>
+</div>
 
-<label for="dropdown_mkvts41y">REAP Eligible?</label>
-<select name="dropdown_mkvts41y" id="dropdown_mkvts41y multiple">
-  <option value="Yes">Yes</option>
+<div class="form-control w-full">
+  <label for="dropdown_mkvts41y" class="label">
+    <span class="label-text font-medium">REAP Eligible?</span>
+  </label>
+  <select name="dropdown_mkvts41y" id="dropdown_mkvts41y" class="select select-bordered w-full">
+    <option value="Yes">Yes</option>
 <option value="No">No</option>
-</select>
+  </select>
+</div>
 
-  </form>
 
-  <ul>
-    <li>No items found</li>
-  </ul>
+        <div class="col-span-1 md:col-span-2 flex justify-end mt-4">
+          <button type="submit" class="btn btn-primary">Submit Lead</button>
+        </div>
+      </form>
+
+      <ul class="menu bg-base-100 rounded-box mt-6">
+        <li class="disabled"><a>No items found</a></li>
+      </ul>
+    </div>
+  </div>
 </section>
 
 <!-- raw HTML omitted -->

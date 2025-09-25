@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     {{ partial "head.html" . }}
-    <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+    {{ $styles := resources.Get "css/main.css" | postCSS }}
+    <link rel="stylesheet" href="{{ $styles.Permalink }}">
 
   </head>
   <body>

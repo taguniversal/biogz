@@ -18,8 +18,14 @@
   "homepage": "https://github.com/taguniversal/biogz#readme",
   "description": "",
   "devDependencies": {
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/postcss": "^4.1.13",
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
     "tailwindcss": "^4.1.13"
+  },
+  "dependencies": {
+    "daisyui": "^5.1.18"
   }
 }

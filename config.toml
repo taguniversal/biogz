@@ -14,8 +14,14 @@ canonifyURLs = false
 [minify]
   minifyOutput = true
 
+[build]
+  writeStats = true
+  
 [markup]
   defaultMarkdownHandler = "goldmark"
+
+  [markup.postCSS]
+    use = ["postcss"]
 
   [markup.goldmark]
     [markup.goldmark.renderer]
