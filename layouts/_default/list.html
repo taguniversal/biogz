@@ -1,14 +1,23 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-<ul class="card-list">
+<h1 class="text-3xl font-bold mb-6">{{ .Title }}</h1>
+
+<ul class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
   {{ range .Pages.ByWeight }}
-  <li class="card">
-    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-    <p>{{ .Params.description }}</p>
-    <p class="meta">
-      {{ with .Params.tam_m_usd }}TAM: {{ . }} M USD · {{ end }}
-      {{ with .Params.pilot_status }}Status: {{ . }}{{ end }}
-    </p>
+  <li class="card bg-base-100 shadow-md border border-base-200">
+    <div class="card-body">
+      <h2 class="card-title">
+        <a href="{{ .RelPermalink }}" class="link link-primary">
+          {{ .Title }}
+        </a>
+      </h2>
+      {{ with .Params.description }}
+        <p class="text-gray-600 mb-2">{{ . }}</p>
+      {{ end }}
+      <p class="text-sm text-gray-500">
+        {{ with .Params.tam_m_usd }}TAM: {{ . }} M USD · {{ end }}
+        {{ with .Params.pilot_status }}Status: {{ . }}{{ end }}
+      </p>
+    </div>
   </li>
   {{ end }}
 </ul>

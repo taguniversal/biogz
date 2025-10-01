@@ -1,32 +1,18 @@
+
 {
   "name": "biogz",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "hugo --minify",
+    "postcss:watch": "postcss assets/css/main.css -o static/css/main.css --watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/taguniversal/biogz.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/taguniversal/biogz/issues"
-  },
-  "homepage": "https://github.com/taguniversal/biogz#readme",
-  "description": "",
   "devDependencies": {
-    "@tailwindcss/forms": "^0.5.10",
-    "@tailwindcss/postcss": "^4.1.13",
-    "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.6",
-    "postcss-cli": "^11.0.1"
-  },
-  "dependencies": {
-    "@tailwindcss/typography": "^0.5.19",
-    "daisyui": "^4.12.24",
-    "tailwindcss": "^3.4.17"
+    "postcss": "8.5.6",
+    "postcss-cli": "11.0.1",
+    "autoprefixer": "10.4.21",
+    "tailwindcss": "3.4.17",
+    "@tailwindcss/forms": "0.5.10",
+    "@tailwindcss/typography": "0.5.19",
+    "daisyui": "4.12.24"
   }
 }
