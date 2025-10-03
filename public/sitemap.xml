@@ -2,42 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/verticals/animal-upcycling/</loc>
+    <loc>https://biogroundz.com/verticals/crematory/</loc>
   </url><url>
-    <loc>http://localhost:1313/verticals/crematory/</loc>
+    <loc>https://biogroundz.com/verticals/stormwater/</loc>
   </url><url>
-    <loc>http://localhost:1313/funnels/effluent-fertilizer/</loc>
+    <loc>https://biogroundz.com/verticals/biogas/</loc>
   </url><url>
-    <loc>http://localhost:1313/verticals/reap/</loc>
+    <loc>https://biogroundz.com/funnels/animal-upcycling/</loc>
   </url><url>
-    <loc>http://localhost:1313/verticals/stormwater/</loc>
+    <loc>https://biogroundz.com/funnels/effluent-soil-amendment/</loc>
   </url><url>
-    <loc>http://localhost:1313/verticals/biogas/</loc>
+    <loc>https://biogroundz.com/tags/biochar/</loc>
   </url><url>
-    <loc>http://localhost:1313/funnels/animal-upcycling/</loc>
+    <loc>https://biogroundz.com/</loc>
   </url><url>
-    <loc>http://localhost:1313/funnels/effluent-soil-amendment/</loc>
+    <loc>https://biogroundz.com/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/animal-upcycling/</loc>
+    <loc>https://biogroundz.com/tags/diy/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/biochar/</loc>
+    <loc>https://biogroundz.com/funnels/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://biogroundz.com/tags/stormwater/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://biogroundz.com/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/diy/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/effluent-fertilizer/</loc>
-  </url><url>
-    <loc>http://localhost:1313/funnels/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/reap/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/stormwater/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-  </url><url>
-    <loc>http://localhost:1313/verticals/</loc>
+    <loc>https://biogroundz.com/verticals/</loc>
   </url>
 </urlset>
