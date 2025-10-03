@@ -2,28 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://biogroundz.com/verticals/crematory/</loc>
+    <loc>http://localhost:1313/verticals/animal-upcycling/</loc>
   </url><url>
-    <loc>https://biogroundz.com/verticals/stormwater/</loc>
+    <loc>http://localhost:1313/verticals/crematory/</loc>
   </url><url>
-    <loc>https://biogroundz.com/verticals/biogas/</loc>
+    <loc>http://localhost:1313/verticals/reap/</loc>
   </url><url>
-    <loc>https://biogroundz.com/funnels/animal-upcycling/</loc>
+    <loc>http://localhost:1313/verticals/stormwater/</loc>
   </url><url>
-    <loc>https://biogroundz.com/tags/biochar/</loc>
+    <loc>http://localhost:1313/verticals/biogas/</loc>
   </url><url>
-    <loc>https://biogroundz.com/</loc>
+    <loc>http://localhost:1313/funnels/animal-upcycling/</loc>
   </url><url>
-    <loc>https://biogroundz.com/categories/</loc>
+    <loc>http://localhost:1313/tags/animal-upcycling/</loc>
   </url><url>
-    <loc>https://biogroundz.com/tags/diy/</loc>
+    <loc>http://localhost:1313/tags/biochar/</loc>
   </url><url>
-    <loc>https://biogroundz.com/funnels/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>https://biogroundz.com/tags/stormwater/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://biogroundz.com/tags/</loc>
+    <loc>http://localhost:1313/tags/diy/</loc>
   </url><url>
-    <loc>https://biogroundz.com/verticals/</loc>
+    <loc>http://localhost:1313/funnels/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/reap/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/stormwater/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/verticals/</loc>
   </url>
 </urlset>
