@@ -2,7 +2,7 @@
 To generate the scaffolding for a new vertical using the `vertical` archetype, the command is:
 
 ```bash
-hugo new verticals/<your-new-vertical-name>/index.md --kind vertical
+hugo new funnels/effluent-fertilizer/index.md --kind vertical
 ```
 
 ### For example:
