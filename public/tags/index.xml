@@ -2,30 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Biogroundz</title>
-    <link>https://biogroundz.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Biogroundz</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://biogroundz.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Animal-Upcycling</title>
+      <link>http://localhost:1313/tags/animal-upcycling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/animal-upcycling/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Biochar</title>
-      <link>https://biogroundz.com/tags/biochar/</link>
+      <link>http://localhost:1313/tags/biochar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://biogroundz.com/tags/biochar/</guid>
+      <guid>http://localhost:1313/tags/biochar/</guid>
       <description></description>
     </item>
     <item>
       <title>DIY</title>
-      <link>https://biogroundz.com/tags/diy/</link>
+      <link>http://localhost:1313/tags/diy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://biogroundz.com/tags/diy/</guid>
+      <guid>http://localhost:1313/tags/diy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reap</title>
+      <link>http://localhost:1313/tags/reap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/reap/</guid>
       <description></description>
     </item>
     <item>
       <title>Stormwater</title>
-      <link>https://biogroundz.com/tags/stormwater/</link>
+      <link>http://localhost:1313/tags/stormwater/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://biogroundz.com/tags/stormwater/</guid>
+      <guid>http://localhost:1313/tags/stormwater/</guid>
       <description></description>
     </item>
   </channel>
