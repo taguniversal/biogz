@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Biogroundz</title>
-    <link>https://taguniversal.github.io/biogz/tags/</link>
+    <link>https://biogroundz.com/tags/</link>
     <description>Recent content in Tags on Biogroundz</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://taguniversal.github.io/biogz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://biogroundz.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Biochar</title>
-      <link>https://taguniversal.github.io/biogz/tags/biochar/</link>
+      <link>https://biogroundz.com/tags/biochar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://taguniversal.github.io/biogz/tags/biochar/</guid>
+      <guid>https://biogroundz.com/tags/biochar/</guid>
       <description></description>
     </item>
     <item>
       <title>DIY</title>
-      <link>https://taguniversal.github.io/biogz/tags/diy/</link>
+      <link>https://biogroundz.com/tags/diy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://taguniversal.github.io/biogz/tags/diy/</guid>
+      <guid>https://biogroundz.com/tags/diy/</guid>
       <description></description>
     </item>
     <item>
       <title>Stormwater</title>
-      <link>https://taguniversal.github.io/biogz/tags/stormwater/</link>
+      <link>https://biogroundz.com/tags/stormwater/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://taguniversal.github.io/biogz/tags/stormwater/</guid>
+      <guid>https://biogroundz.com/tags/stormwater/</guid>
       <description></description>
     </item>
   </channel>
