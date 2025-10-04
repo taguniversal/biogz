@@ -7,7 +7,7 @@ Through innovative **upcycling**, we transform what was once discarded into sust
 
 Together, we can reduce waste streams and build a circular future.
 
-![Hero](/funnels/animal-upcycling/upcycling_hero.png)
+{{< imgrel src="/funnels/animal-upcycling/upcycling_hero.png" alt="Hero" >}}
 
 {{<partner_signup_form audience="farmers">}}
 
@@ -19,7 +19,7 @@ Together, we can reduce waste streams and build a circular future.
 - 💡 **Innovation** – Converts by-products into high-value products such as biochar, fertilizer, and fuel.  
 - 🌍 **Impact** – Supports climate goals and creates a cleaner, more resilient ecosystem.
 
-![Features](/funnels/animal-upcycling/upcycling_features.png)
+{{< imgrel src="/funnels/animal-upcycling/upcycling_features.png" alt="Features" >}}
 
 ## CTA
 

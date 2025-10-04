@@ -1,12 +1,14 @@
-baseURL = "https://biogroundz.com/"
 languageCode = "en-us"
 title = "Biogroundz Verticals"
 theme = ""
 enableGitInfo = true
 enableRobotsTXT = true
 paginate = 10
-canonifyURLs = false
 
+
+baseURL = "https://taguniversal.github.io/biogz/"
+relativeURLs = true
+canonifyURLs = true
 
 [params]
   brandName = "Biogroundz"

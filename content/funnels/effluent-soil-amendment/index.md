@@ -2,7 +2,7 @@
 
 4,000 gallons available monthly. Delivered in 275-gallon totes. Cheap, effective, and farmer-friendly.
 
-![Bulk Liquid Fertilizer for Arlington Farmers](/funnels/effluent-soil-amendment/liquid_fertilizer.png)
+{{< imgrel src="/funnels/effluent-soil-amendment/liquid_fertilizer.png" alt="Bulk Liquid Fertilizer for Arlington Farmers" >}}
 
 ## Turn Waste Into Growth — Bulk Liquid Fertilizer for North Texas Farms
 
