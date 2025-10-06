@@ -1,19 +1,19 @@
 <!doctype html>
 <html lang="en">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title> · </title>
 
 
 
-<link rel="canonical" href="https://biogroundz.com/funnels/effluent-soil-amendment/">
+<link rel="canonical" href="http://localhost:1313/funnels/effluent-soil-amendment/">
 
 
 <link rel="stylesheet" href="/css/main.css">
 
     
-    <link rel="stylesheet" href="https://biogroundz.com/css/main.css">
+    <link rel="stylesheet" href="http://localhost:1313/css/main.css">
 
   </head>
   <body>
@@ -83,8 +83,52 @@ Best suited for <strong>forage, pasture, and hay production</strong>, as well as
 No — this is an introductory program. Early adopters lock in the lowest cost.</p>
 <h2 id="-ready-to-grow"># Ready to Grow?</h2>
 <p>🚜 Get your tote delivered straight to your farm this month.<br>
-Don’t wait — supply is limited.</p>
+Don’t wait — supply is limited.<br>
+<button id="pay-button" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
+  👉 Reserve Yours Today
+</button>
+
+<script>
+document.getElementById("pay-button").addEventListener("click", () => {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        const lat = position.coords.latitude;
+        const lng = position.coords.longitude;
+        window.location.href = `https://biogroundzapi.fly.dev/pay?lat=${lat}&lng=${lng}`;
+      },
+      () => {
+        window.location.href = "https://biogroundzapi.fly.dev/pay";
+      }
+    );
+  } else {
+    window.location.href = "https://biogroundzapi.fly.dev/pay";
+  }
+});
+</script></p>
 <p><a href="#">👉 Reserve Yours Today</a></p>
+<button id="pay-button" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
+  👉 Reserve Yours Today
+</button>
+
+<script>
+document.getElementById("pay-button").addEventListener("click", () => {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        const lat = position.coords.latitude;
+        const lng = position.coords.longitude;
+        window.location.href = `https://biogroundzapi.fly.dev/pay?lat=${lat}&lng=${lng}`;
+      },
+      () => {
+        window.location.href = "https://biogroundzapi.fly.dev/pay";
+      }
+    );
+  } else {
+    window.location.href = "https://biogroundzapi.fly.dev/pay";
+  }
+});
+</script>
 
   </div>
 </article>

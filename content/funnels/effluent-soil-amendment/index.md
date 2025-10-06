@@ -51,5 +51,8 @@ No — this is an introductory program. Early adopters lock in the lowest cost.
 
 🚜 Get your tote delivered straight to your farm this month.  
 Don’t wait — supply is limited.  
+{{< paybutton >}}
 
 [👉 Reserve Yours Today](#)
+
+{{< paybutton >}}

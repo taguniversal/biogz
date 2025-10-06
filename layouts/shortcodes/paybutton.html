@@ -1,0 +1,22 @@
+<!-- <BiogroundzapiWeb.FormsHTML.paybutton> lib/biogroundzapi_web/components/forms_html/paybutton.html.heex:1 (biogroundzapi) --><button id="pay-button" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
+  👉 Reserve Yours Today
+</button>
+
+<script>
+document.getElementById("pay-button").addEventListener("click", () => {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        const lat = position.coords.latitude;
+        const lng = position.coords.longitude;
+        window.location.href = `https://biogroundzapi.fly.dev/pay?lat=${lat}&lng=${lng}`;
+      },
+      () => {
+        window.location.href = "https://biogroundzapi.fly.dev/pay";
+      }
+    );
+  } else {
+    window.location.href = "https://biogroundzapi.fly.dev/pay";
+  }
+});
+</script><!-- </BiogroundzapiWeb.FormsHTML.paybutton> -->
